@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 
 import CoffeeHouseLayout from "./layouts/CoffeeHouseLayout";
-import AdminLayout from "./layouts/AdminLayout";
+import AdminLayout from "./layouts/Admin/AdminLayout";
 
 const App = (): JSX.Element => {
     return (
