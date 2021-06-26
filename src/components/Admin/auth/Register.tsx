@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Register = (): JSX.Element => {
-    console.log('Register');
+    console.log('Admin::Register');
     return (
         <div>Register</div>
     )

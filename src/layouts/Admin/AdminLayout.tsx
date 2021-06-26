@@ -1,14 +1,10 @@
 import React from 'react';
-import { Redirect, Switch } from 'react-router-dom';
-import Routes from "./Routes";
+import AdminPublicLayout from "./Public/AdminPublicLayout";
 
-const AdminLayout = (): JSX.Element => (
-    <div>
-        <Switch>
-            {/*<Redirect to="/admin/home" />*/}
-            <Routes />
-        </Switch>
-    </div>
-);
+const AdminLayout = ():JSX.Element => {
+    return (
+        <AdminPublicLayout />
+    )
+};
 
 export default AdminLayout;
