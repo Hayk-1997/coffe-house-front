@@ -15,6 +15,6 @@ export interface RouteProperties {
 
 export interface RouteTemplateProperties {
     routes: RouteProperties[];
-    template: React.FC<LayoutPageProperties>;
+    template: any;//React.FC<LayoutPageProperties>;
     type: RouteTypeEnum;
 }

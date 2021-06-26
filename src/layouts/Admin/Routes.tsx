@@ -3,6 +3,7 @@ import {
     Route,
     Switch,
     BrowserRouter as Router,
+    Redirect,
 } from 'react-router-dom';
 import {routesTemplates} from "../../routes/Admin";
 
@@ -29,6 +30,7 @@ const Routes = ():JSX.Element => {
                             ));
                         })
                     }
+                    <Redirect to="/admin/login" />
                     <Route
                         render={(route) => (
                            <div>Not found</div>
