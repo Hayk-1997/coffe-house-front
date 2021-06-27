@@ -1,10 +1,10 @@
 import React from 'react';
-import AdminPublicLayout from "./Public/AdminPublicLayout";
+import AdminPublicLayout from './Public/AdminPublicLayout';
 
-const AdminLayout = ():JSX.Element => {
-    return (
-        <AdminPublicLayout />
-    )
+const AdminLayout:React.FC = () => {
+  return (
+    <AdminPublicLayout />
+  );
 };
 
 export default AdminLayout;
