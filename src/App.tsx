@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import {
   BrowserRouter as Router,
   Route,
@@ -7,7 +7,7 @@ import {
 import AdminLayout from './layouts/Admin/AdminLayout';
 import CoffeeHouseLayout from './layouts/CoffeeHouse/CoffeeHouseLayout';
 
-const App:React.FC = () => (
+const App:React.FC = ():ReactElement => (
   <Router>
     <Switch>
       <Route path="/admin" component={AdminLayout} />
