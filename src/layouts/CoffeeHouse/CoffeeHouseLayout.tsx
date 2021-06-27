@@ -1,10 +1,10 @@
 import React from 'react';
-import CoffeeHousePublicLayout from "./Public/CoffeeHousePublicLayout";
+import CoffeeHousePublicLayout from './Public/CoffeeHousePublicLayout';
 
-const CoffeeHouseLayout = (): JSX.Element => {
-    return (
-       <CoffeeHousePublicLayout />
-    )
+const CoffeeHouseLayout:React.FC = () => {
+  return (
+    <CoffeeHousePublicLayout />
+  );
 };
 
 export default CoffeeHouseLayout;

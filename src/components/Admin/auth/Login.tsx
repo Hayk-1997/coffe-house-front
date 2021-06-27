@@ -1,11 +1,10 @@
 import React from 'react';
 
-const Login = (): JSX.Element => {
-    console.log('Admin::Login');
-    return (
-        <div>Login</div>
-    )
-}
-
+const Login: React.FC = () => {
+  console.log('Admin::Login');
+  return (
+    <div>Login</div>
+  );
+};
 
 export default Login;

@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Register = (): JSX.Element => {
-    console.log('Admin::Register');
-    return (
-        <div>Register</div>
-    )
+const Register:React.FC = () => {
+  console.log('Admin::Register');
+  return (
+    <div>Register</div>
+  );
 };
 
-export default Register
+export default Register;

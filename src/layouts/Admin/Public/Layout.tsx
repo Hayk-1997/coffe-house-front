@@ -1,14 +1,13 @@
-import React from "react";
+import React from 'react';
 
-const Layout = ({ children }: any) => {
-    console.log('Layout');
-    return (
-        <div>
+const Layout:React.FC = ({ children }: any) => {
+  console.log('Layout');
+  return (
+    <div>
             AuthLayout
-            { children }
-        </div>
-    )
+      { children }
+    </div>
+  );
 };
-
 
 export default Layout;
