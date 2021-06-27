@@ -1,10 +1,12 @@
 import React, { ReactElement } from 'react';
 import CoffeeHousePublicLayout from './Public/CoffeeHousePublicLayout';
-import './style.module.scss';
+import './CoffeeHouseLayout.scoped.scss';
 
 const CoffeeHouseLayout:React.FC = ():ReactElement => {
   return (
-    <CoffeeHousePublicLayout />
+    <div className="coffee-house">
+      <CoffeeHousePublicLayout />
+    </div>
   );
 };
 
