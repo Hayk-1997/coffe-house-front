@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import CoffeeHousePublicLayout from './Public/CoffeeHousePublicLayout';
+import './style.module.scss';
 
-const CoffeeHouseLayout:React.FC = () => {
+const CoffeeHouseLayout:React.FC = ():ReactElement => {
   return (
     <CoffeeHousePublicLayout />
   );

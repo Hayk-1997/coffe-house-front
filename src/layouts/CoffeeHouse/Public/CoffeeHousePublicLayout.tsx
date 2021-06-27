@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import Layout from '../../Admin/Public/Layout';
 import { BrowserRouter as Router, Link, Redirect, Route, Switch } from 'react-router-dom';
 import publicRoutes from '../../../routes/CoffeeHouse';
 
-const CoffeeHousePublicLayout:React.FC = () => {
+const CoffeeHousePublicLayout:React.FC = ():ReactElement => {
   console.log('CoffeeHousePublicLayout');
   return (
     <Layout>

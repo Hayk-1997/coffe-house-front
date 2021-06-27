@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 
-const Layout:React.FC = ({ children }: any) => {
+const Layout:React.FC = ({ children }: any): ReactElement => {
   console.log('Layout');
   return (
     <div>
