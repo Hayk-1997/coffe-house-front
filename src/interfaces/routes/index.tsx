@@ -1,6 +1,6 @@
 import React from 'react';
-import LayoutPageProperties from "../template/LayoutPageProperties";
-import { RouteTypeEnum } from "./typeEnums";
+import LayoutPageProperties from '../template/LayoutPageProperties';
+import { RouteTypeEnum } from './typeEnums';
 
 export interface RouteProperties {
     component: React.FC;

@@ -1,12 +1,20 @@
-import React, { ReactElement } from 'react';
+import React, { FC, ReactElement } from 'react';
 
-const Layout:React.FC = ({ children }: any): ReactElement => {
-  console.log('Layout');
+type Props = {
+    children?: React.ReactNode;
+};
+
+const Layout:FC = ({ children }: Props):ReactElement => {
   return (
-    <div>
-            AuthLayout
-      { children }
-    </div>
+    <section>
+      <div className="container">
+        <div className="row">
+          <div className="col-xl-8 m-auto">
+            { children }
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };
 

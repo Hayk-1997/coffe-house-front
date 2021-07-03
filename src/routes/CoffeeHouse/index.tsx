@@ -1,5 +1,5 @@
 import { RouteProperties } from '../../interfaces/routes';
-import Login from '../../components/CoffeeHouse/auth/Login';
+import Login from '../../components/CoffeeHouse/auth/login';
 import Register from '../../components/CoffeeHouse/auth/Register';
 
 const publicRoutes: RouteProperties[] = [
