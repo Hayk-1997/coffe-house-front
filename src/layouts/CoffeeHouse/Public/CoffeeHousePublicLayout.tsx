@@ -1,17 +1,14 @@
-import React, { ReactElement } from 'react';
+import React, { FC, ReactElement } from 'react';
 import Layout from '../../Admin/Public/Layout';
-import { BrowserRouter as Router, Link, Redirect, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 import publicRoutes from '../../../routes/CoffeeHouse';
 
-const CoffeeHousePublicLayout:React.FC = ():ReactElement => {
-  console.log('CoffeeHousePublicLayout');
+const CoffeeHousePublicLayout:FC = ():ReactElement => {
   return (
     <Layout>
       <Router
         basename="/coffee-house"
       >
-        <Link to="/register">Register</Link>{' '}
-        <Link to="/login">Login</Link>
         <Switch>
           {
             publicRoutes.map((route) => {

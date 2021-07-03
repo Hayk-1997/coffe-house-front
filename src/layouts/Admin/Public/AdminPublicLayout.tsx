@@ -1,4 +1,4 @@
-import React, { ReactElement } from 'react';
+import React, { FC, ReactElement } from 'react';
 import {
   BrowserRouter as Router,
   Route,
@@ -8,8 +8,7 @@ import {
 import Layout from './Layout';
 import publicRoutes from '../../../routes/Admin';
 
-const AdminPublicLayout:React.FC = (): ReactElement => {
-  console.log('AdminPublicLayout');
+const AdminPublicLayout:FC = (): ReactElement => {
   return (
     <Layout>
       <Router

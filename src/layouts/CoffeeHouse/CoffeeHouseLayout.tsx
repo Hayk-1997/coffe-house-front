@@ -1,8 +1,8 @@
-import React, { ReactElement } from 'react';
+import React, { FC, ReactElement } from 'react';
 import CoffeeHousePublicLayout from './Public/CoffeeHousePublicLayout';
-import './CoffeeHouseLayout.scoped.scss';
+import './style.scss';
 
-const CoffeeHouseLayout:React.FC = ():ReactElement => {
+const CoffeeHouseLayout:FC = ():ReactElement => {
   return (
     <div className="coffee-house">
       <CoffeeHousePublicLayout />
