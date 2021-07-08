@@ -1,14 +1,16 @@
 import React, { FC, ReactElement } from 'react';
+import useStyles from './useStyle';
 
-type Props = {
+interface Props {
     children?: React.ReactNode;
-};
+}
 
-const Layout:FC = ({ children }: Props):ReactElement => {
+const Layout:FC = ({ children }: Props): ReactElement => {
+  const classes = useStyles();
   return (
     <section>
       <div className="container">
-        <div className="row">
+        <div className={classes.root}>
           <div className="col-xl-8 m-auto">
             { children }
           </div>
