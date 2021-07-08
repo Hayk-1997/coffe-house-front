@@ -1,5 +1,5 @@
 import React, { FC, ReactElement } from 'react';
-import Layout from '../../Admin/Public/Layout';
+import Layout from './Layout';
 import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 import publicRoutes from '../../../routes/CoffeeHouse';
 
